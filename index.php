@@ -1,5 +1,5 @@
 <?php
-    require "header.php";
+    require "includes/header.php";
 ?>
 
     <img src="img/jesuschurch.jpg" class="responsive" alt="Church worship scene" height="400" width="900">
@@ -8,6 +8,6 @@
 	    
 
 <?php
-    require "footer.php";
+    require "includes/footer.php";
 ?>
 

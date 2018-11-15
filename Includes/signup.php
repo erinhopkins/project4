@@ -11,25 +11,23 @@
 		$password = sha1($_POST['password']);
 		$email = $_POST['email'];
 			
-		$sql = "SELECT * FROM project3 WHERE username='" . $username . "' LIMIT 1"; //Check to see if account already exists
+		$sql = "SELECT * FROM project4 WHERE username='" . $username . "' LIMIT 1"; //Check to see if account already exists
 		$result = mysqli_query($connection, $sql); //store results of query in $result var
 		
 		if(mysqli_num_rows($result) == 1){	//If at least one result
 			echo "Account already exists. Please try a new username."; //account already exists
 		
 		} else {	//If new account
-			$sql = "INSERT INTO project3 (username,email,password) VALUES('$username','$email','$password')"; //prepare to add stats to database table
+			$sql = "INSERT INTO project4 (username,email,password) VALUES('$username','$email','$password')"; //prepare to add stats to database table
 			mysqli_query($connection, $sql); //run the query
 			echo "Account successfully created. Log in to get started! You will be redirected to the login page in 5 seconds.";
-			header("Refresh: 5; url=index.php"); //Takes user to login page in 5 secs
+			header("Refresh: 5; url=./index.php"); //Takes user to login page in 5 secs
 		}
 	
 	} else {
 		// do nothing
 	}
 	
-
-
 ?>
 
 <html>

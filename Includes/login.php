@@ -6,7 +6,7 @@
 		$username = $_POST['username'];
 		$password = sha1($_POST['password']);
 		// $password = mysql_real_escape_string($password);
-		$sql = "SELECT * FROM project3 WHERE username='" . $username . "' AND password='".$password."' LIMIT 1"; //See if entered username/pass == username/pass in database
+		$sql = "SELECT * FROM project4 WHERE username='" . $username . "' AND password='".$password."' LIMIT 1"; //See if entered username/pass == username/pass in database
 		$result = mysqli_query($connection, $sql); //Execute the sql query and store result in $result
 		if (mysqli_num_rows($result) == 1){		//if account exists
 			$row = mysqli_fetch_row($result);	//$row stores numerical array of data returned from sql query
