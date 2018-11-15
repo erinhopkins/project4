@@ -16,7 +16,7 @@
         <header>
             <div class="nav-header-main">
 		<div class="nav_bar">
-			<a class="header-logo nav_left" href="./index.php">
+			<a class="nav_left" href="./index.php">
 				<img src="img/wave.png" alt="logo goes here">
 			</a>
 					
