@@ -11,3 +11,8 @@
     require "includes/footer.php";
 ?>
 
+<html>
+	<body>
+		<h1>Something</h1>
+	</body>
+</html>
