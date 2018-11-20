@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+}
+
+/* nav bar css */
+.nav-header-main {
+	height:65px;
+	background-color:black;
+}
+
+.nav_left {							      /* floats logo left side */
+	float:left;
+	font-size: 16px;
+	margin: 0px 0 20px 20px;
+	display:inline-block;
+	line-height:65px;
+	height:65px;
+	color:gold;
+	text-decoration:none;
+}
+
+.nav_right {						      /* floats list right side */
+	float:right;
+	margin: 0px 20px 10px 0;
+}
+
+.nav_right_list {
+	margin:0;
+	vertical-text-align:center;
+	height:65px;
+	list-style:none;
+}
+
+.nav_right li {						    /* changes style of li items as if boxes around each one */
+	list-style:none;
+	margin: 0 20px 0 20px;			/* spacig between li items */
+	height:65px;
+	line-height:65px;				    /* centers text vertically in li */
+	text-align: center;
+  	vertical-align: middle;  
+	display:inline-block;
+}
+
+.nav_right a {						    /* chnages style of the letters themselves */
+	color:white;
+	font-size:24px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: normal;
+	text-decoration:none;
+}
+
+.nav_bar li a:hover {
+	color:gold;
+}
+
+
+.header-login {
+	
+}
