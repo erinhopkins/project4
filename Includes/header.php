@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../css/reset.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="../css/styles.css>
+	<link rel="stylesheet" type="text/css" href="../css/style.css>
     
         <title>Pokémon Club</title>
     </head>
