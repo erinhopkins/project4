@@ -15,7 +15,7 @@
     </head>
 
     <body>
-	<div class="container">
+	<div class="index-header-container">
 		<header>
 		    <nav class="nav-header-main">
 			<!-- <a class="header-logo" href="index.php"> -->
