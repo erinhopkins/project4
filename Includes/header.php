@@ -14,7 +14,6 @@
     </head>
 
     <body>
-	<div class="navigation-header-container>					     
 		<header>
 		    <div class="nav-header-main">
 			<div class="nav_bar">
@@ -52,7 +51,6 @@
 			    ?>
 			</div>
 		</header>
-	    </div>
 	</body>
 </html>
          
