@@ -7,9 +7,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="../css/reset.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css>
     
-        <title>Code Club</title>
+        <title>Pokémon Club</title>
     </head>
 
     <body>
@@ -25,7 +26,6 @@
 					<li><a href="./index.php">Home</a></li>		
 					<li><a href="./about.php">About</a></li>
 					<li><a href="./events.php">Events</a></li>
-					<li><a href="./forum.php">Forum</a></li>
 					<li><a href="./contact.php">Contact</a></li>
 				</ul>
 			</div>
