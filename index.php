@@ -15,7 +15,6 @@
     </head>
 
     <body>
-	<div class="index-header-container">
 		<header>
 		    <nav class="nav-header-main">
 			<!-- <a class="header-logo" href="index.php"> -->
@@ -41,6 +40,5 @@
 			<footer>
 				<p>&copy;2018 UCF Pokémon Gym</p>
 			</footer>
-	    </div>
 	</body>
 </html>
