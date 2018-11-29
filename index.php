@@ -1,19 +1,46 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <?php
-    require "Includes/header.php";
+	require "Includes/header.php";
 ?>
+
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
-	<body>
-    	<img src="img/jesuschurch.jpg" class="responsive" alt="Church worship scene" height="400" width="900">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="reset.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    
+        <title>UCF Pokémon Club</title>
+    </head>
 
-		<h1>Join Us Sunday's @ 10:00am</h1>
-	
-<?php
-    require "includes/footer.php";
-?>
+    <body>
 
-	</body>  
-</html>	
+        <header>
+            <nav class="nav-header-main">
+                <!-- <a class="header-logo" href="index.php"> -->
+                    <img src="img/logo.png" alt="UCF Pokémon Gym logo">
+                    <!-- </a> -->
+                
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="events.php">Events</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
+
+                <div class="header-login">
+                    Welcome Traniner trevor3!<form action="logout.php" method="post">
+                            <button type="submit" name="logout-submit">Logout</button>
+                            </form>                </div>
+        </header>
+   <p>HOME PAGE</p>
+	    
+
+		<footer>
+			<p>&copy;2018 UCF Pokémon Gym</p>
+		</footer>
+
+	</body>
+</html>
