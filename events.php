@@ -92,7 +92,7 @@
 			</div>
 			
 			<?php
-				require "includes/footer.php";
+				require "Includes/footer.php";
 			?>
 			
 		</div>	
