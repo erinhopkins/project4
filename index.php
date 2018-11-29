@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <?php
-	require "Includes/header.php";
+	require "includes/header.php";
 ?>
 
 <html>
@@ -30,7 +30,7 @@
 		    </nav>
 
 			<div class="header-login">
-			    Welcome Traniner trevor3!<form action="logout.php" method="post">
+			    Welcome Traniner !<form action="logout.php" method="post">
 				    <button type="submit" name="logout-submit">Logout</button>
 				    </form>                </div>
 		</header>
