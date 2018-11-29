@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/events_styles.css">
 	</head>
 	
