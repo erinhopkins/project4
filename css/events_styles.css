@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	height:auto;
+}
+
+div.events-grid-container {										/* main container of all content outside of navigation header */
+	width:90%;
+	margin:auto;
+	height:auto;
+	display:grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows:auto;
+	grid-template-areas:
+    'main main main main main main menu menu'
+    'footer footer footer footer footer footer footer footer';
+	
+}
+
+div.events-main-content {
+	display:grid;
+	grid-area: main;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.events-page-header {							/* title div at top of page, right beneath navigation header */
+	border-bottom: 1px solid #eeeeee;
+	margin: 40px 0 10px;
+	color: #333333;
+}
+
+h1.evets-page-title {								/* the title words itself at the top of page */
+	font-size:36px;
+	padding-bottom: 9px;
+	margin: 20px 0 10px 0;
+	color: inherit;
+	
+}
+
+p.lead {											/* underneath page title, quick description about page. */
+	font-size: 21px;
+	margin-top:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.events-articles article {							/* each  meeting section is a article */
+	padding:0 0 9px;
+}
+
+.events-articles article footer {
+	min-height:20px;
+}
+
+
+.events-h2 {										/* titles of each meeting section thingy */
+	font-size:30px;
+	font-weight:500;
+	margin-bottom: 10px;
+	line-height:30px;
+	text-decoration:underline;
+	color:#ffca00;
+}
+
+.post-content {										/* paragraphs under each metting title */
+	font-size: 16px;
+	
+}
+
+
+div.events-sidebar {
+	display:grid;
+	grid-area: menu;
+}
+
+.events-images img {
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
