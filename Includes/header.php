@@ -34,17 +34,17 @@
 			<div class="header-login">
 			<?php 
 				if(!isset($_SESSION['loggedin'])) {
-					echo '<form action="Includes/login.php" method="post">
+					echo '<form action="includes/login.php" method="post">
 						<input type="text" name="username" placeholder="Username...">
 						<input type="password" name="password" placeholder="Password..."> 
 						<button type="submit" name="login-submit">Login</button>
 					      </form>
 
-				    <form method="post" action="Includes/signup.php">
+				    <form method="post" action="includes/signup.php">
 				    <button type="submit" name="signup-submit">Sign Up</button></form>';
 
 				} else if ($_SESSION['loggedin'] == true) {
-				    echo '<form action="Includes/logout.php" method="post">
+				    echo '<form action="includes/logout.php" method="post">
 				    <button type="submit" name="logout-submit">Logout</button>
 				    </form>';                        
 				}
