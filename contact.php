@@ -1,6 +1,6 @@
 <!doctype html>
 <?php
-    require "includes/header.php";
+    require "Includes/header.php";
 ?>
 <html>
 	<head>
