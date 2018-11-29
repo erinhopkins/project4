@@ -19,7 +19,7 @@
 
   /*____________________HEADER__________________*/
   
-  .navigation-header-container, .index-header-container header {
+  header {
     width: calc(100% - 30px);
     height: 60px;
     padding: 0 15px;
