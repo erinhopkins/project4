@@ -15,32 +15,32 @@
     </head>
 
     <body>
+	<div class="container">
+		<header>
+		    <nav class="nav-header-main">
+			<!-- <a class="header-logo" href="index.php"> -->
+			    <img src="img/logo.png" alt="UCF Pokémon Gym logo">
+			    <!-- </a> -->
 
-        <header>
-            <nav class="nav-header-main">
-                <!-- <a class="header-logo" href="index.php"> -->
-                    <img src="img/logo.png" alt="UCF Pokémon Gym logo">
-                    <!-- </a> -->
-                
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="events.php">Events</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </nav>
+			<ul>
+			    <li><a href="index.php">Home</a></li>
+			    <li><a href="about.php">About</a></li>
+			    <li><a href="events.php">Events</a></li>
+			    <li><a href="contact.php">Contact</a></li>
+			</ul>
+		    </nav>
 
-                <div class="header-login">
-                    Welcome Traniner trevor3!<form action="logout.php" method="post">
-                            <button type="submit" name="logout-submit">Logout</button>
-                            </form>                </div>
-        </header>
-   <p>HOME PAGE</p>
-	    
+			<div class="header-login">
+			    Welcome Traniner trevor3!<form action="logout.php" method="post">
+				    <button type="submit" name="logout-submit">Logout</button>
+				    </form>                </div>
+		</header>
+	   <p>HOME PAGE</p>
 
-		<footer>
-			<p>&copy;2018 UCF Pokémon Gym</p>
-		</footer>
 
+			<footer>
+				<p>&copy;2018 UCF Pokémon Gym</p>
+			</footer>
+	    </div>
 	</body>
 </html>
