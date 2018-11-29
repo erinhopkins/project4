@@ -1,6 +1,6 @@
 <!doctype html>
 <?php
-    require "Includes/header.php";
+    require "includes/header.php";
 ?>
 
 
@@ -93,7 +93,7 @@
 			</div>
 			
 			<?php
-				require "Includes/footer.php";
+				require "includes/footer.php";
 			?>
 			
 		</div>	
