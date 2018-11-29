@@ -6,7 +6,7 @@ body {
 }
 
 div.events-grid-container {										/* main container of all content outside of navigation header */
-	width:90%;
+	width:92%;
 	margin:auto;
 	height:auto;
 	display:grid;
@@ -25,12 +25,12 @@ div.events-main-content {
 }
 
 div.events-page-header {							/* title div at top of page, right beneath navigation header */
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;
 	margin: 40px 0 10px;
 	color: #333333;
 }
 
-h1.events-page-title {								/* the title words itself at the top of page */
+h1.evets-page-title {								/* the title words itself at the top of page */
 	font-size:36px;
 	padding-bottom: 9px;
 	margin: 20px 0 10px 0;
@@ -39,8 +39,8 @@ h1.events-page-title {								/* the title words itself at the top of page */
 }
 
 p.lead {											/* underneath page title, quick description about page. */
-	font-size: 21px;
-	margin-top:0;
+	font-size: 19px;
+	margin-top:10px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -55,7 +55,7 @@ p.lead {											/* underneath page title, quick description about page. */
 
 
 .events-h2 {										/* titles of each meeting section thingy */
-	font-size:30px;
+	font-size:28px;
 	font-weight:500;
 	margin-bottom: 10px;
 	line-height:30px;
@@ -74,16 +74,22 @@ div.events-sidebar {
 	grid-area: menu;
 }
 
-.events-images img {
-	display:block;
+.events-images  {
+	text-align:right;
+	margin-top:40px;
 }
 
+.span1 {											/* big bold letter in the middle of the paragraph in events */
+	text-decoration:underline;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
-
-
-
-
-
+.span2 {
+	font-size: 13px;
+	text-transform: lowercase;
+	font-style: italic;
+}
 
 
 
